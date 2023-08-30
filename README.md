@@ -16,7 +16,7 @@ Take the "Script URL" and Use it in the Following Way:
 a. Read the Sheet
 - Add to the end of the "Script URL" ?path=Sheet1&action=read 
 b. Write to the Sheet (Add a new row)
-- Add to the end of the "...." ?path=Sheet1&action=write
+- Add to the end of the "Script UR" ?path=Sheet1&action=write
 6. Start Using It. Enjoy!
 
 # Additional Notes
