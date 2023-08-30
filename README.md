@@ -17,11 +17,12 @@ a. Read the Sheet
 - Add to the end of the "Script URL" ?path=Sheet1&action=read 
 b. Write to the Sheet (Add a new row)
 - Add to the end of the "...." ?path=Sheet1&action=write
-6. Start Using It! Enjoy!
+6. Start Using It. Enjoy!
 
 # Additional Notes
-- This script before writing to bottom of sheet, will check for duplicates. It you are trying to write a value that already exists in the sheet, it will decline you and let you know.
+- This script before writing to bottom of sheet, will check for duplicates. It you are trying to write a value that already exists in the sheet, it will decline the new entry and let you know.
 - Make make sure to read more about sharing access with Google Sheets, Google Sheets and Apps Scripts guidelines, quotas, limitations and costs before trying to setup your own versions.
+- All code and instructions are as is. By reading this repository, readme or any code, you acknoledge that you are solely responsible for your own doings.
 
 Hope you liked this!
 
