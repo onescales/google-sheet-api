@@ -24,6 +24,8 @@ b. Write to the Sheet (Add a new row)
 - Make make sure to read more about sharing access with Google Sheets, Google Sheets and Apps Scripts guidelines, quotas, limitations and costs before trying to setup your own versions.
 
 Hope you liked this!
+
+# Suggestions, Comments and Contact
 If you have any suggestions, comments, insight or just want to say hi, thanks or share your experience, you can contact us at:
 - Our WebSite: https://onescales.com/
 - Contact Us: https://onescales.com/pages/contact
