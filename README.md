@@ -9,9 +9,11 @@ The example we use is a simple one column sheet which can be read in json output
 - Create the column and add data. (for example - "Users" as the header, "Bob" as first row (A2) and "Jason" as second row (A3)
 - Name the sheet (for example "Sheet1")
 3. Create Apps Script
+- In Google Sheet Top Menu, Click on Extensions -> App Script
+- Edit the Code.gs file and copy paste this repository Code.gs, Set a "project title" name and click on "Deploy" -> "New Deployment"
 4. Set Permissions of Apps Script and Publish
 Make sure to deploy as "Web app" and copy the script URL: https://script.google.com/macros/s/xxxxxxxxxxxxxx/exec (make sure to replace the x's with your ID)
-5. Test
+5. Using the Api and Testing
 Take the "Script URL" and Use it in the Following Way:
 a. Read the Sheet
 - Add to the end of the "Script URL" ?path=Sheet1&action=read 
