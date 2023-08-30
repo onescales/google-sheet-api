@@ -19,7 +19,7 @@ Take the "Web App URL" and Use it in the Following Way:
 a. Read the Sheet
 - Add to the end of the "Web App URL" ?path=Sheet1&action=read 
 b. Write to the Sheet (Add a new row)
-- Add to the end of the "Web App URL" ?path=Sheet1&action=write
+- Add to the end of the "Web App URL" ?path=Sheet1&action=write&Userst=name 
 6. Start Using It. Enjoy!
 
 # Additional Notes
