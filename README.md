@@ -13,13 +13,13 @@ The example we use is a simple one column sheet which can be read in json output
 - Edit the Code.gs file and copy paste this repository Code.gs. Make sure to edit row 70 "Users" with the name of header of your column A ->       rowData.push(e.parameter['Users'] || '');
 - Set a "project title" name and click on "Deploy" -> "New Deployment"
 4. Set Permissions of Apps Script and Publish
-Make sure to deploy as "Web app" and copy the script URL: https://script.google.com/macros/s/xxxxxxxxxxxxxx/exec (make sure to replace the x's with your ID)
+Make sure to deploy as "Web app" and copy the Web App URL: https://script.google.com/macros/s/xxxxxxxxxxxxxx/exec (make sure to replace the x's with your ID)
 5. Using the Api and Testing
-Take the "Script URL" and Use it in the Following Way:
+Take the "Web App URL" and Use it in the Following Way:
 a. Read the Sheet
-- Add to the end of the "Script URL" ?path=Sheet1&action=read 
+- Add to the end of the "Web App URL" ?path=Sheet1&action=read 
 b. Write to the Sheet (Add a new row)
-- Add to the end of the "Script UR" ?path=Sheet1&action=write
+- Add to the end of the "Web App URL" ?path=Sheet1&action=write
 6. Start Using It. Enjoy!
 
 # Additional Notes
