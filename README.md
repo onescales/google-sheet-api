@@ -19,7 +19,6 @@ b. Write to the Sheet (Add a new row)
 
 Hope you liked this!
 If you have any suggestions, comments, insight or just want to say hi, thanks or share your experience, you can contact us at:
-
 Our WebSite: https://onescales.com/
 Contact Us: https://onescales.com/pages/contact
 Twitter/X: https://twitter.com/one_scales
