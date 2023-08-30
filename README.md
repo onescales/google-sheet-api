@@ -1,7 +1,5 @@
 # google-sheet-api
-Makes a Google Sheet An API (reading and writing)
-
-This code and documentation easily makes a Google Sheet into a Simple Public GET API for reading and writing. 
+Makes a Google Sheet Into a Public GET API (for reading and writing)
 
 The example we use is a simple one column sheet which can be read and written to append to the last line.
 
