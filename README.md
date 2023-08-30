@@ -1,7 +1,7 @@
 # google-sheet-api
 Makes a Google Sheet Into a Public GET API (for reading and writing)
 
-The example we use is a simple one column sheet which can be read and written to append to the last line.
+The example we use is a simple one column sheet which can be read in json output and written to append to the last line.
 
 # Steps
 
@@ -10,12 +10,14 @@ The example we use is a simple one column sheet which can be read and written to
 - Name the sheet (for example "Sheet1")
 3. Create Apps Script
 4. Set Permissions of Apps Script and Publish
-5. Test and Enjoy!
-Take the "".. and Use it in the Following Way:
+Make sure to deploy as "Web app" and copy the script URL: https://script.google.com/macros/s/xxxxxxxxxxxxxx/exec (make sure to replace the x's with your ID)
+5. Test
+Take the "Script URL" and Use it in the Following Way:
 a. Read the Sheet
-- Add to the end of the "...." ?path=Sheet1&action=read 
+- Add to the end of the "Script URL" ?path=Sheet1&action=read 
 b. Write to the Sheet (Add a new row)
 - Add to the end of the "...." ?path=Sheet1&action=write
+6. Start Using It! Enjoy!
 
 # Additional Notes
 - This script before writing to bottom of sheet, will check for duplicates. It you are trying to write a value that already exists in the sheet, it will decline you and let you know.
