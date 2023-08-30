@@ -17,9 +17,9 @@ Make sure to deploy as "Web app" and copy the Web App URL: https://script.google
 4. Using the Api and Testing
 Take the "Web App URL" and Use it in the Following Way:
 a. Read the Sheet
-- Add to the end of the "Web App URL" ?path=Sheet1&action=read 
+- Add to the end of the "Web App URL" ?path=Sheet1&action=read
 b. Write to the Sheet (Add a new row)
-- Add to the end of the "Web App URL" ?path=Sheet1&action=write&Users=name 
+- Add to the end of the "Web App URL" ?path=Sheet1&action=write&Users=[name]
 5. Start Using It. Enjoy!
 
 # Additional Notes
