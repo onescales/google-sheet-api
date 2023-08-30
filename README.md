@@ -7,7 +7,7 @@ The example we use is a simple one column sheet which can be read in json output
 
 1. Create Google Sheet
 - Create the column and add data. (for example - "Users" as the header, "Bob" as first row (A2) and "Jason" as second row (A3)
-- Name the sheet (for example "Sheet1")
+- Name the sheet (for example "Sheet1"). If you change this, you will need to change the value also in your API request path= (see step 5 below)
 3. Create Apps Script
 - In Google Sheet Top Menu, Click on Extensions -> App Script
 - Edit the Code.gs file and copy paste this repository Code.gs. Make sure to edit row 70 "Users" with the name of header of your column A ->       rowData.push(e.parameter['Users'] || '');
@@ -25,7 +25,7 @@ b. Write to the Sheet (Add a new row)
 # Additional Notes
 - This script before writing to bottom of sheet, will check for duplicates. It you are trying to write a value that already exists in the sheet, it will decline the new entry and let you know.
 - Make make sure to read more about sharing access with Google Sheets, Google Sheets and Apps Scripts guidelines, quotas, limitations and costs before trying to setup your own versions.
-- All code and instructions are as is. By reading this repository, readme or any code, you acknoledge that you are solely responsible for your own doings.
+- All code and instructions are as is. By reading this repository, readme or any code, you acknowledge that you are solely responsible for your own doings.
 
 Hope you liked this!
 
