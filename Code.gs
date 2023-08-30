@@ -66,7 +66,8 @@ function doGet(e) {
             .setMimeType(ContentService.MimeType.JSON);
     } else if (action === 'write') {
       const rowData = [];
-      rowData.push(e.parameter['User-Agent'] || '');
+      
+      rowData.push(e.parameter['Users'] || '');
       const result = appendRow(path, rowData);
       return ContentService
             .createTextOutput(`${result}. Debug: ${debugInfo}`)
@@ -82,4 +83,3 @@ function doGet(e) {
           .setMimeType(ContentService.MimeType.TEXT);
   }
 }
-
