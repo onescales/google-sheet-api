@@ -3,6 +3,8 @@ Makes a Google Sheet Into a Public GET API (for reading and writing)
 
 The example we use is a simple one column sheet which can be read in json output and written to append to the last line.
 
+For a visual overview and full details, see our youtube video - https://www.youtube.com/watch?v=pJOcRSEqhDk
+
 # Steps
 
 1. Create Google Sheet
