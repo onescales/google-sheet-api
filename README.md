@@ -32,7 +32,7 @@ b. Write to the Sheet (Add a new row)
 Hope you liked this!
 
 # Support Us / Donate
-If this helped you in any way, please consider supporting us at https://buymeacoffee.com/onescales
+If this helped you in any way, please consider supporting us at https://onescales.com/pages/support-us
 
 # Suggestions, Comments and Contact
 If you have any suggestions, comments, insight or just want to say hi, thanks or share your experience, you can contact us at:
